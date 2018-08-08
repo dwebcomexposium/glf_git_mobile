@@ -1,0 +1,112 @@
+/*
+	
+	== Mobile / Catalogue
+	== Social links
+
+	.social-sharing --> .sr-##
+	==> to share an article (@article)
+
+
+*/
+.sr-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row wrap;
+      -ms-flex-direction: row wrap;
+          flex-direction: row wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sr-item {
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.sr-item + .sr-item {
+  margin-left: .25em;
+}
+[class*="sr-link"] {
+  display: block;
+  padding: 0.5em 0.35em;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #FFF;
+}
+[class*="sr-link"]:focus,
+[class*="sr-link"]:hover {
+  color: #FFF;
+}
+[class*="sr-link"] .icon {
+  margin-right: 2em;
+}
+.sr-item-txt {
+  text-transform: none;
+  font-weight: bold;
+}
+.sr-link-facebook {
+  background: #36589b;
+  border-bottom-color: #263e6e;
+}
+.sr-link-facebook:focus,
+.sr-link-facebook:hover {
+  background: #294375;
+  border-bottom-color: #1c2d4f;
+}
+.sr-link-twitter {
+  background: #31aae1;
+  border-bottom-color: #1b88ba;
+}
+.sr-link-twitter:focus,
+.sr-link-twitter:hover {
+  background: #1c8fc3;
+  border-bottom-color: #166e96;
+}
+.sr-link-pinterest {
+  background: #cb2027;
+  border-bottom-color: #96181d;
+}
+.sr-link-pinterest:focus,
+.sr-link-pinterest:hover {
+  background: #9f191f;
+  border-bottom-color: #731216;
+}
+.sr-link-mail {
+  background: #0c8192;
+  border-bottom-color: #074f59;
+}
+.sr-link-mail:focus,
+.sr-link-mail:hover {
+  background: #085763;
+  border-bottom-color: #042e34;
+}
+/*
+ * Social sharing only
+ */
+.social-sharing {
+  margin-top: 0.8rem !important;
+  margin-bottom: 1rem;
+  padding: 1em 0;
+  border: 1px solid #e3e9ea;
+  border-width: 1px 0;
+}
+.sr-title {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #474d4e;
+}
+.page-details .social-sharing {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.page-myselection .social-sharing {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

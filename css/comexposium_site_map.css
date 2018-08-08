@@ -1,0 +1,68 @@
+.block.sitemap {
+  margin: 0 20px;
+}
+
+body.sitemap .inside h1 {
+  font-family: "Montserrat Regular";
+  letter-spacing: 1px;
+  font-size: 36px;
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 38px;
+  color: #bdcb36;
+  text-transform: uppercase;
+  border-bottom: 0;
+}
+body.sitemap .inside h1:after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 8px;
+  background-color: black;
+  position: absolute;
+  bottom: -25px;
+  left: -19px;
+  background-color: #bdcb36;
+}
+body.sitemap .content-list-bullet {
+  text-align: justify;
+  font-size: 12px;
+  font-family: "Avenir Book";
+  list-style-type: none;
+  padding-left: 20px;
+}
+body.sitemap .content-list-bullet a {
+  text-decoration: none;
+}
+body.sitemap .content-list-bullet a:hover, body.sitemap .content-list-bullet a:focus {
+  text-decoration: underline;
+}
+body.sitemap .content-list-bullet li {
+  margin-bottom: 0.35em;
+  padding-left: 0;
+}
+body.sitemap .content-list-bullet li:before {
+  display: none;
+}
+
+.sm-list {
+  margin-bottom: 150px;
+  padding-left: 20px;
+}
+
+.sm-item-title {
+  border-bottom: 0;
+  display: block;
+  width: 550px;
+  max-width: 100%;
+  color: #021736;
+  letter-spacing: 1px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Montserrat Light";
+}
+
+.sm-item-link {
+  font-size: 16px;
+  line-height: 28px;
+}

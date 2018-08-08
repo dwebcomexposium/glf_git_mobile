@@ -1,0 +1,11 @@
+body {
+  background: white;
+}
+
+.body-mobile {
+  margin: 0;
+}
+
+a:hover, a:focus, a:active {
+  color: #021736;
+}

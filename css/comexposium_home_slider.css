@@ -1,0 +1,199 @@
+.HomeSlider {
+  display: block;
+  position: relative;
+}
+
+.HomeSlider-slide-list {
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+  margin-top: 0;
+}
+
+.HomeSlider {
+  overflow: hidden;
+}
+.HomeSlider .slick-dots {
+  position: absolute;
+  bottom: 8px;
+  text-align: left;
+  left: 20px;
+}
+.HomeSlider .slick-dots li button {
+  width: 11px;
+  height: 11px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.HomeSlider .slick-dots li button:hover, .HomeSlider .slick-dots li button:focus {
+  opacity: 1;
+}
+.HomeSlider .slick-dots li button:before {
+  display: none;
+}
+.HomeSlider .slick-dots li.slick-active button {
+  opacity: 1;
+}
+.HomeSlider .slick-prev, .HomeSlider .slick-next {
+  display: none;
+}
+
+.HomeSlider-slide {
+  display: block;
+  position: relative;
+}
+
+.HomeSlider-slide-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 220px;
+}
+.HomeSlider-slide-image.HS-si-desktop {
+  display: none;
+}
+
+.HomeSlider-slide-inner-wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.HomeSlider-slide-content {
+  display: block;
+  width: 1100px;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+.HomeSlider-slide-title, .HomeSlider-slide-description {
+  color: white;
+  width: 460px;
+  max-width: 100%;
+}
+
+.HomeSlider-slide-title {
+  font-family: 'Montserrat Light';
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 25px;
+}
+
+.HomeSlider-slide-description {
+  font-family: 'Avenir Light';
+  font-size: 18px;
+  line-height: 24px;
+  display: none;
+}
+
+.HomeSlider-slide-title + .HomeSlider-slide-description {
+  margin-top: 25px;
+}
+
+.HomeSlider-slide-link-button {
+  float: left;
+  display: block;
+  margin-top: 30px;
+  padding: 12px 19px;
+  color: white;
+  font-family: 'Montserrat Light';
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid white;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  box-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+.HomeSlider-nav-outer-wrapper {
+  display: none;
+}
+
+.HomeSlider-nav-link-group:nth-child(1) .HomeSlider-nav-link-group-title:hover, .HomeSlider-nav-link-group:nth-child(1) .HomeSlider-nav-link-group-title:focus {
+  color: #3dbb9e;
+}
+.HomeSlider-nav-link-group:nth-child(1) .HomeSlider-nav-link-group-inner-wrapper:after {
+  background-color: #3dbb9e;
+}
+
+.HomeSlider-nav-link-group:nth-child(2) .HomeSlider-nav-link-group-title:hover, .HomeSlider-nav-link-group:nth-child(2) .HomeSlider-nav-link-group-title:focus {
+  color: #9d1368;
+}
+.HomeSlider-nav-link-group:nth-child(2) .HomeSlider-nav-link-group-inner-wrapper:after {
+  background-color: #9d1368;
+}
+
+.HomeSlider-nav-link-group:nth-child(3) .HomeSlider-nav-link-group-title:hover, .HomeSlider-nav-link-group:nth-child(3) .HomeSlider-nav-link-group-title:focus {
+  color: #ec9921;
+}
+.HomeSlider-nav-link-group:nth-child(3) .HomeSlider-nav-link-group-inner-wrapper:after {
+  background-color: #ec9921;
+}
+
+.HomeSlider-nav-link-group:nth-child(4) .HomeSlider-nav-link-group-title:hover, .HomeSlider-nav-link-group:nth-child(4) .HomeSlider-nav-link-group-title:focus {
+  color: #ef5075;
+}
+.HomeSlider-nav-link-group:nth-child(4) .HomeSlider-nav-link-group-inner-wrapper:after {
+  background-color: #ef5075;
+}
+
+.HomeSlider-nav-link-group-inner-wrapper {
+  background-color: white;
+  padding-top: 27px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  position: relative;
+  min-height: 215px;
+}
+.HomeSlider-nav-link-group-inner-wrapper:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  left: -10px;
+  top: 78px;
+}
+
+.HomeSlider-nav-link-group + .HomeSlider-nav-link-group .HomeSlider-nav-link-group-inner-wrapper {
+  margin-left: 1px;
+}
+
+.HomeSlider-nav-link-group-title {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  height: 5em;
+  font-family: 'Montserrat ExtraBold';
+  line-height: 20px;
+}
+
+.HomeSlider-nav-link-group-subpage-link {
+  display: block;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  left: -12px;
+  font-size: 14px;
+  font-family: "Avenir Book";
+}
+.HomeSlider-nav-link-group-subpage-link:before {
+  content: "_ ";
+}
+.HomeSlider-nav-link-group-subpage-link:hover, .HomeSlider-nav-link-group-subpage-link:focus {
+  text-decoration: underline;
+}

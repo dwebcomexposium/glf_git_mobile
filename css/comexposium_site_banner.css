@@ -1,0 +1,30 @@
+.site-banner {
+  background: white;
+  position: static;
+}
+.site-banner .inside {
+  padding: 0;
+  height: 64px;
+  position: static;
+}
+.site-banner .global-search-form {
+  display: none;
+}
+
+.site-banner-site-banner-title {
+  position: absolute;
+  width: 200px;
+  height: 64px;
+  top: 0;
+  left: 39px;
+  font-size: 0;
+  background: url(/theme/glf_git_mobile/img/logo-glf.png);
+  background-position: center;
+  background-size: 130%;
+  background-repeat: no-repeat;
+}
+.site-banner-site-banner-title a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

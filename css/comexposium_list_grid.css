@@ -1,0 +1,105 @@
+.grid-la-list {
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 30px auto;
+  padding: 0;
+}
+.grid-la-list > * {
+  width: 100%;
+}
+
+.gla-item, .la-item {
+  margin-bottom: 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #e3e9ea;
+  background-clip: padding-box;
+  box-shadow: none;
+}
+.gla-item:first-child, .la-item:first-child {
+  padding-top: 0;
+}
+.gla-item:last-child, .la-item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.gla-item > a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.gla-item-img {
+  margin-bottom: 17px;
+}
+
+.gla-item-content {
+  position: static;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  min-height: none;
+  min-height: initial;
+  display: block;
+  padding: 0 20px;
+  text-align: left;
+  background: transparent;
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  color: #000000;
+}
+.gla-item-content .gla-item-btn {
+  display: none;
+}
+
+.gla-item > a:hover .gla-item-content,
+.gla-item > a:focus .gla-item-content {
+  background: transparent;
+  color: #000000;
+}
+
+.gla-item-title {
+  margin: 0;
+  font-family: "Montserrat Regular";
+  font-weight: normal;
+  font-size: 26px;
+  color: #000000;
+}
+
+.gla-item > a:hover .gla-item-title,
+.gla-item > a:focus .gla-item-title {
+  color: #000000;
+}
+
+.gla-item-desc, .gla-item-content p:not(.gla-item-btn) {
+  font-size: 14px;
+  font-family: "Avenir Book";
+  line-height: 18px;
+  margin-top: 15px;
+}
+
+.gla-item-tag {
+  position: static;
+  top: auto;
+  left: auto;
+  padding: 0 8px;
+  background: #021736;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Montserrat ExtraBold";
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 18px;
+  line-height: 20px;
+}
+
+.gla-item-img + .gla-item-content {
+  position: relative;
+}
+
+.gla-item-img + .gla-item-content .gla-item-tag {
+  position: absolute;
+  top: -29px;
+}

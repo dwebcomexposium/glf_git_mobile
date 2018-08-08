@@ -1,0 +1,8 @@
+.breadcrumb-nav {
+  margin: 0;
+  height: 4px;
+  background: #021736;
+}
+.breadcrumb-nav .inside {
+  display: none;
+}

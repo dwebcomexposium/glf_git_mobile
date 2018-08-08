@@ -1,0 +1,42 @@
+.block.error-page {
+  background: url(/theme/comexposium_mobile/img/404.png) center center no-repeat;
+  background-size: cover;
+}
+.block.error-page .inside {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10% 20px 0;
+}
+.block.error-page h1.main-title {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Light";
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1em;
+  border: none;
+}
+.block.error-page .intro {
+  margin-top: 20px;
+  color: white;
+  font-family: "Avenir Light";
+  font-size: 14px;
+  line-height: 28px;
+}
+.block.error-page .intro a {
+  margin-top: 40px;
+  display: inline-block;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  line-height: 49px;
+  padding: 0 20px;
+  font-family: "Montserrat Light";
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+.block.error-page .ep-form-wrap {
+  display: none;
+}

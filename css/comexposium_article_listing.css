@@ -1,0 +1,43 @@
+body.article_list .list-articles .inside {
+  margin-top: 25px;
+}
+body.article_list .list-articles .intro {
+  margin: 0 20px;
+  font-family: "Avenir Book";
+  color: black;
+  font-size: 18px;
+  line-height: 26px;
+}
+body.article_list .list-articles .la-item .la-item-tag {
+  top: 0;
+}
+body.article_list .main-title-with-link {
+  margin-bottom: 0;
+}
+body.article_list .la-main-title {
+  font-family: 'Montserrat Regular';
+  letter-spacing: 1px;
+  font-size: 30px;
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 0;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+body.article_list .la-main-title:after {
+  content: '';
+  display: block;
+  width: 34px;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  bottom: -12px;
+  left: -9px;
+}
+body.article_list .la-item-header .la-item-title-wrap {
+  padding-top: 25px !important;
+}
+body.article_list .list-articles {
+  margin-bottom: 80px;
+}

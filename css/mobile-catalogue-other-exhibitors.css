@@ -1,0 +1,68 @@
+/*
+
+		== Mobile / Catalogue
+		== Other exhibitors and Other products (found after details of an exhibitor or product)
+		.catal-other-ex --> ¤
+
+*/
+/*
+ * == Other exhibitors (and products)
+ */
+.catal-other-ex,
+.catal-other-prd {
+  border-bottom: 1px solid #e3e9ea;
+  padding: 1rem;
+}
+.catal-other-ex .catal-other-ex-title,
+.catal-other-prd .catal-other-ex-title,
+.catal-other-ex .catal-other-prd-title,
+.catal-other-prd .catal-other-prd-title {
+  border-bottom: none;
+  padding-top: 1rem;
+  color: #474d4e;
+}
+.catal-other-ex .catal-other-ex-list,
+.catal-other-prd .catal-other-ex-list,
+.catal-other-ex .catal-other-prd-list,
+.catal-other-prd .catal-other-prd-list {
+  width: 100%;
+  padding-left: 0;
+}
+.catal-other-ex .catal-other-ex-item,
+.catal-other-prd .catal-other-ex-item,
+.catal-other-ex .catal-other-prd-item,
+.catal-other-prd .catal-other-prd-item {
+  position: relative;
+  list-style-type: none;
+  border-top: 1px solid #e3e9ea;
+}
+.catal-other-ex .catal-other-ex-item:first-child,
+.catal-other-prd .catal-other-ex-item:first-child,
+.catal-other-ex .catal-other-prd-item:first-child,
+.catal-other-prd .catal-other-prd-item:first-child {
+  border-top: none;
+}
+.catal-other-ex .catal-other-ex-link,
+.catal-other-prd .catal-other-ex-link,
+.catal-other-ex .catal-other-prd-link,
+.catal-other-prd .catal-other-prd-link {
+  display: inline-block;
+  padding: 0.5rem 0;
+  text-align: center;
+  text-decoration: none;
+  color: #474d4e;
+}
+.catal-other-ex .catal-other-ex-img,
+.catal-other-prd .catal-other-ex-img,
+.catal-other-ex .catal-other-prd-img,
+.catal-other-prd .catal-other-prd-img {
+  width: 9rem;
+}
+.catal-other-ex .catal-other-ex-txt,
+.catal-other-prd .catal-other-ex-txt,
+.catal-other-ex .catal-other-prd-txt,
+.catal-other-prd .catal-other-prd-txt {
+  margin: 0 0 auto 0.8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}

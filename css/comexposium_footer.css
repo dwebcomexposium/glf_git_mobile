@@ -1,0 +1,102 @@
+.site-footer {
+  background-color: #f4f4f5;
+  position: relative;
+}
+.site-footer .inside {
+  padding-top: 0;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+}
+.site-footer .inside > * {
+  display: block;
+}
+.site-footer .quicklinks {
+  padding-right: 20px;
+  padding-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  margin-left: 0;
+  margin-right: 0;
+  float: left;
+  box-sizing: border-box;
+}
+.site-footer .quicklinks .block-title {
+  text-transform: uppercase;
+  color: black;
+  font-size: 14px;
+  font-size: 3vw;
+  letter-spacing: 1px;
+  font-family: 'Montserrat ExtraBold';
+  border-bottom: 0;
+  display: block;
+  padding-bottom: 20px;
+  position: relative;
+}
+.site-footer .quicklinks .block-title:after {
+  margin-top: 5px;
+  display: block;
+  content: "";
+  width: 35px;
+  height: 4px;
+  background-color: #9d1c48;
+  position: absolute;
+  bottom: 10px;
+  left: -14px;
+}
+.site-footer .quicklinks + .quicklinks {
+  padding-left: 20px;
+}
+.site-footer .ql-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.site-footer .ql-list .ql-item > a {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+}
+.site-footer .ql-list .ql-item > a:hover, .site-footer .ql-list .ql-item > a:focus {
+  text-decoration: underline;
+}
+.site-footer .ql-list .ql-item > a .txt-btn {
+  color: black;
+  font-family: "Avenir Book";
+  font-size: 14px;
+  text-transform: none;
+}
+.site-footer .ql-list .ql-item > a .txt-btn:before {
+  content: "_ ";
+}
+
+.footer-copyright {
+  display: block !important;
+  clear: both !important;
+  font-family: "Avenir Book";
+  font-size: 14px;
+  margin-top: 40px;
+  color: #747b7e;
+  padding-bottom: 12px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.footer-copyright a {
+  font-family: "Avenir Book";
+  font-size: 14px;
+  color: #747b7e;
+  text-decoration: none;
+}
+.footer-copyright a:hover, .footer-copyright a:focus {
+  text-decoration: underline;
+}
+
+.TwitterBlock_footer_block {
+  display: block;
+  float: left;
+  margin-left: 98px;
+  position: relative;
+  top: -85px;
+  border: 1px solid #e5e5e5;
+}

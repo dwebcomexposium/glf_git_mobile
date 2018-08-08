@@ -1,0 +1,398 @@
+.article-title {
+  margin: 0 0 1em;
+}
+
+.at-illust {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.at-content {
+  position: relative;
+  margin: 0 20px 0;
+}
+
+.at-theme {
+  display: table;
+  color: #ffffff;
+  background: #021736;
+  font-size: 14px;
+  font-family: "Montserrat ExtraBold";
+  line-height: 20px;
+  padding: 0 5px;
+  width: auto;
+}
+
+.at-illust + .at-content > .at-theme {
+  font-weight: normal;
+  font-size: 14px;
+  top: -10px;
+  left: 0;
+}
+
+.at-main-title {
+  display: block;
+  color: #000000;
+  background: transparent;
+  font-size: 30px;
+  font-family: "Montserrat Light";
+  font-weight: normal;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.at-illust + .at-content > .at-main-title {
+  padding-top: 28px;
+}
+
+.at-content:first-child {
+  margin-bottom: 0.2em;
+}
+
+.at-publication {
+  padding: 0;
+  border: none;
+  margin: 34px 0 0;
+}
+.at-publication:before {
+  content: '';
+  display: block;
+  width: 44px;
+  height: 4px;
+  background: #021736;
+  margin-bottom: 20px;
+}
+
+.at-publication-item {
+  display: block;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: "Avenir BookOblique";
+}
+
+.at-publication-author {
+  font-family: "Avenir Black";
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.article-content {
+  clear: both;
+  margin: 0 20px;
+  line-height: 22px;
+  font-size: 16px;
+}
+.article-content p {
+  margin-top: 1em;
+  text-align: justify;
+  font-size: 16px;
+  font-family: "Avenir Book";
+}
+.article-content p:first-child {
+  margin-top: 0;
+}
+.article-content p.txtcenter {
+  text-align: center;
+}
+.article-content p.txtLEFT, .article-content p.txtleft {
+  text-align: left;
+}
+.article-content p.txtRIGHT, .article-content p.txtright {
+  text-align: right;
+}
+.article-content h2, .article-content .h2-like {
+  line-height: 1em;
+  border: none;
+  margin: 40px 0 0;
+  padding: 0;
+  font-size: 26px;
+  font-family: "Avenir Black";
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
+.article-content h2 + *, .article-content .h2-like + * {
+  margin-top: 20px;
+}
+.article-content h2:first-child, .article-content .h2-like:first-child {
+  margin-top: 0;
+}
+.article-content h3, .article-content .h3-like {
+  line-height: 1em;
+  margin: 40px 0 0;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  font-size: 24px;
+}
+.article-content h3 + *, .article-content .h3-like + * {
+  margin-top: 20px;
+}
+.article-content h3:first-child, .article-content .h3-like:first-child {
+  margin-top: 0;
+}
+.article-content h4, .article-content .h4-like {
+  color: #021736;
+  line-height: 1em;
+  font-size: 20px;
+  font-family: "Avenir Black";
+  margin: 40px 0 0;
+}
+.article-content h4 + *, .article-content .h4-like + * {
+  margin-top: 20px;
+}
+.article-content h4:first-child, .article-content .h4-like:first-child {
+  margin-top: 0;
+}
+.article-content [name^="eztoc_"]:first-child + h2,
+.article-content [name^="eztoc_"]:first-child + .h2-like,
+.article-content [name^="eztoc_"]:first-child + h3,
+.article-content [name^="eztoc_"]:first-child + .h3-like,
+.article-content [name^="eztoc_"]:first-child + h4,
+.article-content [name^="eztoc_"]:first-child + .h4-like {
+  margin-top: 0;
+}
+.article-content ul, .article-content ol {
+  text-align: justify;
+  font-size: 16px;
+  font-family: "Avenir Book";
+  padding-left: 20px;
+}
+.article-content ul li, .article-content ol li {
+  margin-bottom: 0.35em;
+}
+.article-content ul > li:before, .article-content ol > li:before {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+.article-content ul li::before {
+  background: transparent;
+  content: '_ ';
+  height: auto;
+  width: auto;
+  margin: 0 5px 0 0;
+  vertical-align: baseline;
+}
+.article-content ul ul, .article-content ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.article-content ul ul li::before {
+  content: "_ ";
+}
+.article-content figcaption {
+  margin-top: 10px;
+  color: #021736;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: "Avenir Book";
+}
+.article-content figcaption strong {
+  font-family: "Avenir Black";
+}
+.article-content figcaption .ezxmltext-field p {
+  line-height: 20px;
+  font-size: 14px;
+  font-family: "Avenir Book";
+  text-align: inherit;
+}
+.article-content figcaption:before {
+  display: block;
+  content: '';
+  width: 12px;
+  height: 2px;
+  margin-bottom: 10px;
+}
+.article-content figure {
+  position: relative;
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  clear: both;
+}
+.article-content figure img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.article-content .article-focus, .article-content .focus1 {
+  position: relative;
+  margin: 30px 0;
+  left: -20px;
+  box-sizing: content-box;
+  max-width: 100%;
+  width: calc(100% - 40px);
+  padding: 30px 40px;
+  color: #FFF;
+  text-align: justify;
+  border: none;
+  background: #021736;
+}
+.article-content .article-focus .af-content, .article-content .focus1 .af-content {
+  padding: 0;
+}
+.article-content .article-focus .af-title, .article-content .focus1 .af-title {
+  color: white;
+  font-family: "Avenir Black";
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.article-content .article-focus a, .article-content .focus1 a {
+  color: white;
+}
+.article-content .article-focus [class^="btn"], .article-content .article-focus .btn, .article-content .focus1 [class^="btn"], .article-content .focus1 .btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Avenir Book";
+  font-weight: normal;
+  text-decoration: underline;
+  text-transform: none;
+  color: white;
+}
+.article-content .article-focus [class^="btn"]:hover, .article-content .article-focus [class^="btn"]:active, .article-content .article-focus [class^="btn"]:focus, .article-content .article-focus .btn:hover, .article-content .article-focus .btn:active, .article-content .article-focus .btn:focus, .article-content .focus1 [class^="btn"]:hover, .article-content .focus1 [class^="btn"]:active, .article-content .focus1 [class^="btn"]:focus, .article-content .focus1 .btn:hover, .article-content .focus1 .btn:active, .article-content .focus1 .btn:focus {
+  color: white;
+}
+.article-content blockquote {
+  position: relative;
+  margin: 25px 32px 25px 16px;
+  padding: 0;
+  background: transparent;
+  color: #000000;
+}
+.article-content blockquote p {
+  border-left: none;
+  padding-left: 0;
+  line-height: 28px;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: left;
+}
+.article-content blockquote strong {
+  display: block;
+  font-style: normal;
+  margin-top: 20px;
+}
+.article-content blockquote .icon-quote {
+  display: none;
+}
+.article-content iframe {
+  display: block;
+  margin: 40px auto;
+}
+.article-content iframe:first-child {
+  margin-top: 0;
+}
+.article-content pre {
+  margin-top: 1em;
+}
+.article-content a.lien1 {
+  text-decoration: underline;
+}
+.article-content a.lien1::before {
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+  width: 22px;
+  height: 28px;
+  margin-right: 11px;
+  background: url(/theme/comexposium_desktop/img/picto-lien1.png) 0 0 no-repeat;
+}
+.article-content a.lien2, .article-content a.lien3 {
+  display: inline-block;
+  padding: 15px 20px;
+  font-family: "Montserrat Light";
+  font-size: 12px;
+  color: #021736;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #021736;
+}
+.article-content a.lien2:hover, .article-content a.lien3:hover {
+  color: #3cbb9e;
+  border-color: #3cbb9e;
+}
+.article-content a.lien3 {
+  color: #fff;
+  background-color: #021736;
+}
+.article-content table {
+  border: none;
+  margin: 2em 0;
+}
+.article-content table:first-child {
+  margin-top: 0;
+}
+.article-content table p {
+  text-align: inherit;
+}
+.article-content table thead tr td, .article-content table thead tr th {
+  border: 1px solid #d4d4d5;
+  border-width: 0 0 1px 0;
+  padding: 22px 0 22px 22px;
+}
+.article-content table thead tr td:first-child, .article-content table thead tr th:first-child {
+  padding-left: 22px;
+}
+.article-content table thead tr td:last-child, .article-content table thead tr th:last-child {
+  padding-right: 22px;
+}
+.article-content table tbody tr {
+  border: none;
+        /*&.ligne1, &:first-child{
+          color:white;
+
+          td{
+            border: none;
+          }
+        }*/
+}
+.article-content table tbody tr td {
+  border: 1px solid #d4d4d5;
+  border-width: 0 0 1px 0;
+  padding: 22px 0 22px 22px;
+}
+.article-content table tbody tr td:first-child {
+  padding-left: 22px;
+}
+.article-content table tbody tr td:last-child {
+  padding-right: 22px;
+}
+
+.article-content a[target="_self"], .ep-intro a[target="_self"] {
+  text-decoration: underline;
+}
+
+.article-intro {
+  margin: 25px 20px;
+  padding: 0;
+  position: relative;
+}
+.article-intro p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Avenir Medium";
+  line-height: 26px;
+}
+
+.block-page.article-navigation {
+  display: none;
+}

@@ -1,0 +1,606 @@
+a {
+  color: #000000;
+}
+
+body .at-publication:before {
+  background: #021736;
+}
+body .article-content h2, body .article-content .h2-like {
+  color: #021736;
+}
+body .article-content h3, body .article-content .h3-like {
+  color: #021736;
+}
+body .article-content figcaption:before {
+  background: #021736;
+}
+body .article-content table th {
+  background: #021736;
+}
+body .article-content a.lien2:hover {
+  color: #021736;
+  border-color: #021736;
+}
+body .article-content a.lien3 {
+  background-color: #021736;
+  border-color: #021736;
+}
+body .article-content a.lien3:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body .at-theme {
+  background: #021736;
+}
+body .bn-item:last-of-type .bn-item-link {
+  color: #021736;
+}
+body .block-page.edito:not(.rub-header) h3 {
+  background-color: #021736;
+}
+body .block-page.edito:not(.rub-header) figcaption:before {
+  background: #021736;
+}
+body .block-page.edito:not(.rub-header) a.lien1:hover {
+  color: #021736;
+  border-color: #021736;
+}
+body .block-page.edito:not(.rub-header) a.lien2 {
+  background-color: #021736;
+  border-color: #021736;
+}
+body .block-page.edito:not(.rub-header) a.lien2:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body .citation-edito .inside:before {
+  color: #021736;
+}
+body .rcb-slider {
+  background-color: #021736;
+}
+body.article_list .la-main-title {
+  color: #021736;
+}
+body.article_list .la-main-title:after {
+  background-color: #021736;
+}
+body .main-title-with-link .block-title, body .main-title-with-link .la-main-title {
+  color: #021736;
+}
+body .la-item-tag {
+  background-color: #021736;
+}
+body .gla-item-tag {
+  background-color: #021736;
+}
+body .pagination a:focus, body .pagination a:hover {
+  color: #021736;
+}
+body .pagin-item.is-active a {
+  color: #021736;
+}
+body .pagin-item.is-active a::after {
+  background-color: #021736;
+}
+body #zone3 .la-slider, body #zone3 .list-articles, body #zone3 .la-item-content,
+body #zone3 .slider-pagin, body #zone3 .slider-item {
+  background-color: #021736;
+}
+
+body.rub-groupe .at-publication:before {
+  background: #3cbb9e;
+}
+body.rub-groupe .article-content h2, body.rub-groupe .article-content .h2-like {
+  color: #3cbb9e;
+}
+body.rub-groupe .article-content h3, body.rub-groupe .article-content .h3-like {
+  color: #3cbb9e;
+}
+body.rub-groupe .article-content figcaption:before {
+  background: #3cbb9e;
+}
+body.rub-groupe .article-content table th {
+  background: #3cbb9e;
+}
+body.rub-groupe .article-content a.lien2:hover {
+  color: #3cbb9e;
+  border-color: #3cbb9e;
+}
+body.rub-groupe .article-content a.lien3 {
+  background-color: #3cbb9e;
+  border-color: #3cbb9e;
+}
+body.rub-groupe .article-content a.lien3:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.rub-groupe .at-theme {
+  background: #3cbb9e;
+}
+body.rub-groupe .bn-item:last-of-type .bn-item-link {
+  color: #3cbb9e;
+}
+body.rub-groupe .block-page.edito:not(.rub-header) h3 {
+  background-color: #3cbb9e;
+}
+body.rub-groupe .block-page.edito:not(.rub-header) figcaption:before {
+  background: #3cbb9e;
+}
+body.rub-groupe .block-page.edito:not(.rub-header) a.lien1:hover {
+  color: #3cbb9e;
+  border-color: #3cbb9e;
+}
+body.rub-groupe .block-page.edito:not(.rub-header) a.lien2 {
+  background-color: #3cbb9e;
+  border-color: #3cbb9e;
+}
+body.rub-groupe .block-page.edito:not(.rub-header) a.lien2:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.rub-groupe .citation-edito .inside:before {
+  color: #3cbb9e;
+}
+body.rub-groupe .rcb-slider {
+  background-color: #3cbb9e;
+}
+body.rub-groupe.article_list .la-main-title {
+  color: #3cbb9e;
+}
+body.rub-groupe.article_list .la-main-title:after {
+  background-color: #3cbb9e;
+}
+body.rub-groupe .main-title-with-link .block-title, body.rub-groupe .main-title-with-link .la-main-title {
+  color: #3cbb9e;
+}
+body.rub-groupe .la-item-tag {
+  background-color: #3cbb9e;
+}
+body.rub-groupe .gla-item-tag {
+  background-color: #3cbb9e;
+}
+body.rub-groupe .pagination a:focus, body.rub-groupe .pagination a:hover {
+  color: #3cbb9e;
+}
+body.rub-groupe .pagin-item.is-active a {
+  color: #3cbb9e;
+}
+body.rub-groupe .pagin-item.is-active a::after {
+  background-color: #3cbb9e;
+}
+body.rub-groupe #zone3 .la-slider, body.rub-groupe #zone3 .list-articles, body.rub-groupe #zone3 .la-item-content,
+body.rub-groupe #zone3 .slider-pagin, body.rub-groupe #zone3 .slider-item {
+  background-color: #3cbb9e;
+}
+
+body.rub-evenements .at-publication:before {
+  background: #9d1368;
+}
+body.rub-evenements .article-content h2, body.rub-evenements .article-content .h2-like {
+  color: #9d1368;
+}
+body.rub-evenements .article-content h3, body.rub-evenements .article-content .h3-like {
+  color: #9d1368;
+}
+body.rub-evenements .article-content figcaption:before {
+  background: #9d1368;
+}
+body.rub-evenements .article-content table th {
+  background: #9d1368;
+}
+body.rub-evenements .article-content a.lien2:hover {
+  color: #9d1368;
+  border-color: #9d1368;
+}
+body.rub-evenements .article-content a.lien3 {
+  background-color: #9d1368;
+  border-color: #9d1368;
+}
+body.rub-evenements .article-content a.lien3:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.rub-evenements .at-theme {
+  background: #9d1368;
+}
+body.rub-evenements .bn-item:last-of-type .bn-item-link {
+  color: #9d1368;
+}
+body.rub-evenements .block-page.edito:not(.rub-header) h3 {
+  background-color: #9d1368;
+}
+body.rub-evenements .block-page.edito:not(.rub-header) figcaption:before {
+  background: #9d1368;
+}
+body.rub-evenements .block-page.edito:not(.rub-header) a.lien1:hover {
+  color: #9d1368;
+  border-color: #9d1368;
+}
+body.rub-evenements .block-page.edito:not(.rub-header) a.lien2 {
+  background-color: #9d1368;
+  border-color: #9d1368;
+}
+body.rub-evenements .block-page.edito:not(.rub-header) a.lien2:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.rub-evenements .citation-edito .inside:before {
+  color: #9d1368;
+}
+body.rub-evenements .rcb-slider {
+  background-color: #9d1368;
+}
+body.rub-evenements.article_list .la-main-title {
+  color: #9d1368;
+}
+body.rub-evenements.article_list .la-main-title:after {
+  background-color: #9d1368;
+}
+body.rub-evenements .main-title-with-link .block-title, body.rub-evenements .main-title-with-link .la-main-title {
+  color: #9d1368;
+}
+body.rub-evenements .la-item-tag {
+  background-color: #9d1368;
+}
+body.rub-evenements .gla-item-tag {
+  background-color: #9d1368;
+}
+body.rub-evenements .pagination a:focus, body.rub-evenements .pagination a:hover {
+  color: #9d1368;
+}
+body.rub-evenements .pagin-item.is-active a {
+  color: #9d1368;
+}
+body.rub-evenements .pagin-item.is-active a::after {
+  background-color: #9d1368;
+}
+body.rub-evenements #zone3 .la-slider, body.rub-evenements #zone3 .list-articles, body.rub-evenements #zone3 .la-item-content,
+body.rub-evenements #zone3 .slider-pagin, body.rub-evenements #zone3 .slider-item {
+  background-color: #9d1368;
+}
+
+body.rub-talents .at-publication:before {
+  background: #f05076;
+}
+body.rub-talents .article-content h2, body.rub-talents .article-content .h2-like {
+  color: #f05076;
+}
+body.rub-talents .article-content h3, body.rub-talents .article-content .h3-like {
+  color: #f05076;
+}
+body.rub-talents .article-content figcaption:before {
+  background: #f05076;
+}
+body.rub-talents .article-content table th {
+  background: #f05076;
+}
+body.rub-talents .article-content a.lien2:hover {
+  color: #f05076;
+  border-color: #f05076;
+}
+body.rub-talents .article-content a.lien3 {
+  background-color: #f05076;
+  border-color: #f05076;
+}
+body.rub-talents .article-content a.lien3:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.rub-talents .at-theme {
+  background: #f05076;
+}
+body.rub-talents .bn-item:last-of-type .bn-item-link {
+  color: #f05076;
+}
+body.rub-talents .block-page.edito:not(.rub-header) h3 {
+  background-color: #f05076;
+}
+body.rub-talents .block-page.edito:not(.rub-header) figcaption:before {
+  background: #f05076;
+}
+body.rub-talents .block-page.edito:not(.rub-header) a.lien1:hover {
+  color: #f05076;
+  border-color: #f05076;
+}
+body.rub-talents .block-page.edito:not(.rub-header) a.lien2 {
+  background-color: #f05076;
+  border-color: #f05076;
+}
+body.rub-talents .block-page.edito:not(.rub-header) a.lien2:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.rub-talents .citation-edito .inside:before {
+  color: #f05076;
+}
+body.rub-talents .rcb-slider {
+  background-color: #f05076;
+}
+body.rub-talents.article_list .la-main-title {
+  color: #f05076;
+}
+body.rub-talents.article_list .la-main-title:after {
+  background-color: #f05076;
+}
+body.rub-talents .main-title-with-link .block-title, body.rub-talents .main-title-with-link .la-main-title {
+  color: #f05076;
+}
+body.rub-talents .la-item-tag {
+  background-color: #f05076;
+}
+body.rub-talents .gla-item-tag {
+  background-color: #f05076;
+}
+body.rub-talents .pagination a:focus, body.rub-talents .pagination a:hover {
+  color: #f05076;
+}
+body.rub-talents .pagin-item.is-active a {
+  color: #f05076;
+}
+body.rub-talents .pagin-item.is-active a::after {
+  background-color: #f05076;
+}
+body.rub-talents #zone3 .la-slider, body.rub-talents #zone3 .list-articles, body.rub-talents #zone3 .la-item-content,
+body.rub-talents #zone3 .slider-pagin, body.rub-talents #zone3 .slider-item {
+  background-color: #f05076;
+}
+
+body.rub-pressroom .at-publication:before {
+  background: #ec9921;
+}
+body.rub-pressroom .article-content h2, body.rub-pressroom .article-content .h2-like {
+  color: #ec9921;
+}
+body.rub-pressroom .article-content h3, body.rub-pressroom .article-content .h3-like {
+  color: #ec9921;
+}
+body.rub-pressroom .article-content figcaption:before {
+  background: #ec9921;
+}
+body.rub-pressroom .article-content table th {
+  background: #ec9921;
+}
+body.rub-pressroom .article-content a.lien2:hover {
+  color: #ec9921;
+  border-color: #ec9921;
+}
+body.rub-pressroom .article-content a.lien3 {
+  background-color: #ec9921;
+  border-color: #ec9921;
+}
+body.rub-pressroom .article-content a.lien3:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.rub-pressroom .at-theme {
+  background: #ec9921;
+}
+body.rub-pressroom .bn-item:last-of-type .bn-item-link {
+  color: #ec9921;
+}
+body.rub-pressroom .block-page.edito:not(.rub-header) h3 {
+  background-color: #ec9921;
+}
+body.rub-pressroom .block-page.edito:not(.rub-header) figcaption:before {
+  background: #ec9921;
+}
+body.rub-pressroom .block-page.edito:not(.rub-header) a.lien1:hover {
+  color: #ec9921;
+  border-color: #ec9921;
+}
+body.rub-pressroom .block-page.edito:not(.rub-header) a.lien2 {
+  background-color: #ec9921;
+  border-color: #ec9921;
+}
+body.rub-pressroom .block-page.edito:not(.rub-header) a.lien2:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.rub-pressroom .citation-edito .inside:before {
+  color: #ec9921;
+}
+body.rub-pressroom .rcb-slider {
+  background-color: #ec9921;
+}
+body.rub-pressroom.article_list .la-main-title {
+  color: #ec9921;
+}
+body.rub-pressroom.article_list .la-main-title:after {
+  background-color: #ec9921;
+}
+body.rub-pressroom .main-title-with-link .block-title, body.rub-pressroom .main-title-with-link .la-main-title {
+  color: #ec9921;
+}
+body.rub-pressroom .la-item-tag {
+  background-color: #ec9921;
+}
+body.rub-pressroom .gla-item-tag {
+  background-color: #ec9921;
+}
+body.rub-pressroom .pagination a:focus, body.rub-pressroom .pagination a:hover {
+  color: #ec9921;
+}
+body.rub-pressroom .pagin-item.is-active a {
+  color: #ec9921;
+}
+body.rub-pressroom .pagin-item.is-active a::after {
+  background-color: #ec9921;
+}
+body.rub-pressroom #zone3 .la-slider, body.rub-pressroom #zone3 .list-articles, body.rub-pressroom #zone3 .la-item-content,
+body.rub-pressroom #zone3 .slider-pagin, body.rub-pressroom #zone3 .slider-item {
+  background-color: #ec9921;
+}
+
+body.rub-contact .at-publication:before, body.node82443 .at-publication:before {
+  background: #bdcb36;
+}
+body.rub-contact .article-content h2, body.rub-contact .article-content .h2-like, body.node82443 .article-content h2, body.node82443 .article-content .h2-like {
+  color: #bdcb36;
+}
+body.rub-contact .article-content h3, body.rub-contact .article-content .h3-like, body.node82443 .article-content h3, body.node82443 .article-content .h3-like {
+  color: #bdcb36;
+}
+body.rub-contact .article-content figcaption:before, body.node82443 .article-content figcaption:before {
+  background: #bdcb36;
+}
+body.rub-contact .article-content table th, body.node82443 .article-content table th {
+  background: #bdcb36;
+}
+body.rub-contact .article-content a.lien2:hover, body.node82443 .article-content a.lien2:hover {
+  color: #bdcb36;
+  border-color: #bdcb36;
+}
+body.rub-contact .article-content a.lien3, body.node82443 .article-content a.lien3 {
+  background-color: #bdcb36;
+  border-color: #bdcb36;
+}
+body.rub-contact .article-content a.lien3:hover, body.node82443 .article-content a.lien3:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.rub-contact .at-theme, body.node82443 .at-theme {
+  background: #bdcb36;
+}
+body.rub-contact .bn-item:last-of-type .bn-item-link, body.node82443 .bn-item:last-of-type .bn-item-link {
+  color: #bdcb36;
+}
+body.rub-contact .block-page.edito:not(.rub-header) h3, body.node82443 .block-page.edito:not(.rub-header) h3 {
+  background-color: #bdcb36;
+}
+body.rub-contact .block-page.edito:not(.rub-header) figcaption:before, body.node82443 .block-page.edito:not(.rub-header) figcaption:before {
+  background: #bdcb36;
+}
+body.rub-contact .block-page.edito:not(.rub-header) a.lien1:hover, body.node82443 .block-page.edito:not(.rub-header) a.lien1:hover {
+  color: #bdcb36;
+  border-color: #bdcb36;
+}
+body.rub-contact .block-page.edito:not(.rub-header) a.lien2, body.node82443 .block-page.edito:not(.rub-header) a.lien2 {
+  background-color: #bdcb36;
+  border-color: #bdcb36;
+}
+body.rub-contact .block-page.edito:not(.rub-header) a.lien2:hover, body.node82443 .block-page.edito:not(.rub-header) a.lien2:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.rub-contact .citation-edito .inside:before, body.node82443 .citation-edito .inside:before {
+  color: #bdcb36;
+}
+body.rub-contact .rcb-slider, body.node82443 .rcb-slider {
+  background-color: #bdcb36;
+}
+body.rub-contact.article_list .la-main-title, body.node82443.article_list .la-main-title {
+  color: #bdcb36;
+}
+body.rub-contact.article_list .la-main-title:after, body.node82443.article_list .la-main-title:after {
+  background-color: #bdcb36;
+}
+body.rub-contact .main-title-with-link .block-title, body.rub-contact .main-title-with-link .la-main-title, body.node82443 .main-title-with-link .block-title, body.node82443 .main-title-with-link .la-main-title {
+  color: #bdcb36;
+}
+body.rub-contact .la-item-tag, body.node82443 .la-item-tag {
+  background-color: #bdcb36;
+}
+body.rub-contact .gla-item-tag, body.node82443 .gla-item-tag {
+  background-color: #bdcb36;
+}
+body.rub-contact .pagination a:focus, body.rub-contact .pagination a:hover, body.node82443 .pagination a:focus, body.node82443 .pagination a:hover {
+  color: #bdcb36;
+}
+body.rub-contact .pagin-item.is-active a, body.node82443 .pagin-item.is-active a {
+  color: #bdcb36;
+}
+body.rub-contact .pagin-item.is-active a::after, body.node82443 .pagin-item.is-active a::after {
+  background-color: #bdcb36;
+}
+body.rub-contact #zone3 .la-slider, body.rub-contact #zone3 .list-articles, body.rub-contact #zone3 .la-item-content,
+body.rub-contact #zone3 .slider-pagin, body.rub-contact #zone3 .slider-item, body.node82443 #zone3 .la-slider, body.node82443 #zone3 .list-articles, body.node82443 #zone3 .la-item-content,
+body.node82443 #zone3 .slider-pagin, body.node82443 #zone3 .slider-item {
+  background-color: #bdcb36;
+}
+
+body.search .at-publication:before {
+  background: #6dcce0;
+}
+body.search .article-content h2, body.search .article-content .h2-like {
+  color: #6dcce0;
+}
+body.search .article-content h3, body.search .article-content .h3-like {
+  color: #6dcce0;
+}
+body.search .article-content figcaption:before {
+  background: #6dcce0;
+}
+body.search .article-content table th {
+  background: #6dcce0;
+}
+body.search .article-content a.lien2:hover {
+  color: #6dcce0;
+  border-color: #6dcce0;
+}
+body.search .article-content a.lien3 {
+  background-color: #6dcce0;
+  border-color: #6dcce0;
+}
+body.search .article-content a.lien3:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.search .at-theme {
+  background: #6dcce0;
+}
+body.search .bn-item:last-of-type .bn-item-link {
+  color: #6dcce0;
+}
+body.search .block-page.edito:not(.rub-header) h3 {
+  background-color: #6dcce0;
+}
+body.search .block-page.edito:not(.rub-header) figcaption:before {
+  background: #6dcce0;
+}
+body.search .block-page.edito:not(.rub-header) a.lien1:hover {
+  color: #6dcce0;
+  border-color: #6dcce0;
+}
+body.search .block-page.edito:not(.rub-header) a.lien2 {
+  background-color: #6dcce0;
+  border-color: #6dcce0;
+}
+body.search .block-page.edito:not(.rub-header) a.lien2:hover {
+  color: #fff;
+  border-color: #021736;
+}
+body.search .citation-edito .inside:before {
+  color: #6dcce0;
+}
+body.search .rcb-slider {
+  background-color: #6dcce0;
+}
+body.search.article_list .la-main-title {
+  color: #6dcce0;
+}
+body.search.article_list .la-main-title:after {
+  background-color: #6dcce0;
+}
+body.search .main-title-with-link .block-title, body.search .main-title-with-link .la-main-title {
+  color: #6dcce0;
+}
+body.search .la-item-tag {
+  background-color: #6dcce0;
+}
+body.search .gla-item-tag {
+  background-color: #6dcce0;
+}
+body.search .pagination a:focus, body.search .pagination a:hover {
+  color: #6dcce0;
+}
+body.search .pagin-item.is-active a {
+  color: #6dcce0;
+}
+body.search .pagin-item.is-active a::after {
+  background-color: #6dcce0;
+}
+body.search #zone3 .la-slider, body.search #zone3 .list-articles, body.search #zone3 .la-item-content,
+body.search #zone3 .slider-pagin, body.search #zone3 .slider-item {
+  background-color: #6dcce0;
+}

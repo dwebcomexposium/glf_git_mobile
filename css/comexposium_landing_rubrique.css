@@ -1,0 +1,211 @@
+.page-rubric #zone1 {
+  overflow: visible;
+}
+
+.block-page.edito:not(.rub-header) {
+  max-width: 100%;
+  margin: 0 0 30px;
+  margin-top: 0 !important;
+}
+.block-page.edito:not(.rub-header) .inside {
+  padding: 0 20px;
+}
+.block-page.edito:not(.rub-header) h2 {
+  border: none;
+  margin: 0 0 30px;
+  padding: 0;
+  font-family: "Montserrat Light";
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.block-page.edito:not(.rub-header) figure {
+  margin: 0 0 20px 0;
+  position: relative;
+}
+.block-page.edito:not(.rub-header) figure img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.block-page.edito:not(.rub-header) figcaption {
+  margin-top: 10px;
+  line-height: 14px;
+  font-size: 11px;
+  font-family: "Avenir Book";
+  text-align: center;
+}
+.block-page.edito:not(.rub-header) figcaption strong {
+  font-family: "Avenir Black";
+  font-size: 14px;
+  line-height: 18px;
+}
+.block-page.edito:not(.rub-header) figcaption .ezxmltext-field p {
+  line-height: 14px;
+  font-size: 11px;
+  font-family: "Avenir Book";
+  text-align: inherit;
+}
+.block-page.edito:not(.rub-header) figcaption:before {
+  display: block;
+  content: '';
+  width: 35px;
+  height: 4px;
+  margin: 0 auto 10px;
+}
+.block-page.edito:not(.rub-header) h3 {
+  margin: 0;
+  padding: 0 5px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Montserrat ExtraBold";
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0.1em;
+}
+.block-page.edito:not(.rub-header) p {
+  text-align: justify;
+  font-size: 16px;
+  font-family: "Avenir Book";
+}
+.block-page.edito:not(.rub-header) a.lien1, .block-page.edito:not(.rub-header) a.lien2 {
+  display: inline-block;
+  padding: 15px 20px;
+  font-family: "Montserrat Light";
+  font-size: 12px;
+  color: #021736;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #021736;
+}
+.block-page.edito:not(.rub-header) a.lien1:hover, .block-page.edito:not(.rub-header) a.lien2:hover {
+  color: #3cbb9e;
+  border-color: #3cbb9e;
+}
+.block-page.edito:not(.rub-header) a.lien2 {
+  color: #fff;
+  background-color: #021736;
+}
+
+.citation-edito {
+  width: 100%;
+  margin-top: 46px;
+  margin-bottom: 30px;
+}
+.citation-edito .inside {
+  padding: 0 30px 0 30px;
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.citation-edito .inside:before {
+  display: block;
+  content: '\201C';
+  font-family: Arial, Helvetica, Sans-serif;
+  font-weight: bold;
+  font-size: 120px;
+  font-style: normal;
+  line-height: 10px;
+  margin-top: 20px;
+  float: left;
+}
+
+.rubrique-content-block {
+  margin-top: 30px;
+}
+.rubrique-content-block .inside {
+  max-width: 100%;
+}
+
+.rcb-video a {
+  display: block;
+  position: relative;
+}
+.rcb-video a img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.rcb-video a.video:before {
+  display: block;
+  content: '';
+  background: url(/theme/comexposium_mobile/img/picto-play-big.png) 0 0 no-repeat;
+  width: 60px;
+  height: 160px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.rcb-slider {
+  max-width: 100%;
+  margin-top: 0;
+}
+
+.rcb-slide-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.rcb-slide-list .slick-prev, .rcb-slide-list .slick-next {
+  z-index: 50;
+  width: 49px;
+  height: 98px;
+  background: url(/theme/comexposium_desktop/img/sprite-slider-rubrique.png) 0 0 no-repeat;
+  margin: 0;
+  padding: 0;
+  border: none;
+  top: 60px;
+  -moz-transform: none;
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none;
+}
+.rcb-slide-list .slick-prev:before, .rcb-slide-list .slick-next:before {
+  display: none;
+}
+.rcb-slide-list .slick-prev {
+  background-position: 0 0;
+  left: 0;
+}
+.rcb-slide-list .slick-next {
+  background-position: -49px 0;
+  right: 0;
+}
+
+.rcb-slide-content {
+  color: white;
+  padding: 45px 50px;
+}
+
+.rcb-number {
+  font-family: "Montserrat Regular";
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+.rcb-number em {
+  font-family: "Montserrat Light";
+  font-size: 30px;
+  line-height: 30px;
+  vertical-align: baseline;
+  font-style: normal;
+}
+.rcb-number.small {
+  font-size: 60px;
+}
+
+.rcb-text {
+  font-family: "Avenir Medium";
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}

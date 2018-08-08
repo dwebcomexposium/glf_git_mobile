@@ -1,0 +1,61 @@
+.lang-switcher {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 64px;
+  right: 0;
+  top: 0;
+  background-color: #d5d7d8;
+  margin-top: 0;
+}
+
+.ls-trigger {
+  padding-top: 20px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Avenir Heavy";
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.ls-trigger:after {
+  display: block;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  width: 17px;
+  height: 9px;
+  background-image: url("/theme/comexposium_desktop/img/ui-arrow-down.png");
+}
+.ls-trigger:focus {
+  outline: 0;
+}
+
+.ls-lang-list {
+  position: absolute;
+  top: 64px;
+  background: #d5d7d8;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+
+.ls-lang-link {
+  text-align: center;
+  background-color: #d5d7d8;
+  padding: 0;
+  font-family: "Avenir Heavy";
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+}
+.ls-lang-link:hover, .ls-lang-link:focus {
+  background-color: #d5d7d8;
+}
+.ls-lang-link:hover abbr, .ls-lang-link:focus abbr {
+  border-bottom-style: solid;
+}

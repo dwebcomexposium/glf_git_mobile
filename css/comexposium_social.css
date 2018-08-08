@@ -1,0 +1,56 @@
+.social-sharing {
+  max-width: 100%;
+  margin: 40px auto;
+  padding: 0;
+  border: none;
+}
+.social-sharing .sr-item:after {
+  display: none;
+}
+.social-sharing .sr-title {
+  display: none;
+}
+.social-sharing .sr-list {
+  display: block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.social-sharing .sr-item {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+.social-sharing .sr-item [class^="btn"], .social-sharing .sr-item .btn {
+  border: none;
+  padding: 0 10px;
+  background: transparent !important;
+}
+.social-sharing .sr-item [class^="btn"] .icon, .social-sharing .sr-item .btn .icon {
+  display: block;
+  width: 43px;
+  height: 43px;
+  margin: 0 auto;
+}
+.social-sharing .sr-item [class^="btn"] .icon:before, .social-sharing .sr-item .btn .icon:before {
+  display: none;
+}
+.social-sharing .sr-item [class^="btn"] .icon.icon-email, .social-sharing .sr-item .btn .icon.icon-email {
+  background: url(/theme/comexposium_mobile/img/social-share-icon-email.png) 0 0 no-repeat;
+}
+.social-sharing .sr-item [class^="btn"] .icon.icon-facebook, .social-sharing .sr-item .btn .icon.icon-facebook {
+  background: url(/theme/comexposium_mobile/img/social-share-icon-facebook.png) 0 0 no-repeat;
+}
+.social-sharing .sr-item [class^="btn"] .icon.icon-twitter, .social-sharing .sr-item .btn .icon.icon-twitter {
+  background: url(/theme/comexposium_mobile/img/social-share-icon-twitter.png) 0 0 no-repeat;
+}
+.social-sharing .sr-item + .sr-item {
+  margin-left: 0;
+}
+.social-sharing .sr-link-linkedin, .social-sharing .sr-link-gplus {
+  display: none;
+}
+.social-sharing .sr-item-txt {
+  display: none;
+}

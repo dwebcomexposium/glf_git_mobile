@@ -1,0 +1,10 @@
+.icon-short-arrow-left,
+.icon-short-arrow-right,
+.icon-long-arrow-right,
+.icon-arrow-alt-right {
+  display: none !important;
+}
+
+.mn-item-lvl-2.mn-item-has-submenu > a::after {
+  display: none !important;
+}

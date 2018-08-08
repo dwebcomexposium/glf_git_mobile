@@ -1,0 +1,71 @@
+.SocialNav, .SocialNav_header_block, .SocialNav_footer_block {
+  background-color: white;
+  display: block;
+}
+.SocialNav:after, .SocialNav_header_block:after, .SocialNav_footer_block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.SocialNav-link, .SocialNav_header_block-link, .SocialNav_footer_block-link {
+  display: block;
+  float: left;
+  width: 91px;
+  height: 53px;
+  width: 5.05556vw;
+  min-width: 50px;
+  font-size: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.SocialNav-link:nth-child(2), .SocialNav_header_block-link:nth-child(2), .SocialNav_footer_block-link:nth-child(2), .SocialNav-link:nth-child(3), .SocialNav_header_block-link:nth-child(3), .SocialNav_footer_block-link:nth-child(3), .SocialNav-link:nth-child(5), .SocialNav_header_block-link:nth-child(5), .SocialNav_footer_block-link:nth-child(5), .SocialNav-link:nth-child(6), .SocialNav_header_block-link:nth-child(6), .SocialNav_footer_block-link:nth-child(6) {
+  border-left: 1px solid #e5e5e5;
+}
+.SocialNav-link:nth-child(1), .SocialNav_header_block-link:nth-child(1), .SocialNav_footer_block-link:nth-child(1), .SocialNav-link:nth-child(2), .SocialNav_header_block-link:nth-child(2), .SocialNav_footer_block-link:nth-child(2), .SocialNav-link:nth-child(3), .SocialNav_header_block-link:nth-child(3), .SocialNav_footer_block-link:nth-child(3) {
+  border-bottom: 1px solid #e5e5e5;
+}
+.SocialNav-link:nth-child(4), .SocialNav_header_block-link:nth-child(4), .SocialNav_footer_block-link:nth-child(4) {
+  clear: both;
+}
+.SocialNav-link:hover, .SocialNav_header_block-link:hover, .SocialNav_footer_block-link:hover, .SocialNav-link:focus, .SocialNav_header_block-link:focus, .SocialNav_footer_block-link:focus {
+  background-color: #d5d7d8;
+}
+.SocialNav-link.facebook, .facebook.SocialNav_header_block-link, .facebook.SocialNav_footer_block-link {
+  background-image: url("/theme/comexposium_desktop/img/picto-facebook.png");
+}
+.SocialNav-link.instagram, .instagram.SocialNav_header_block-link, .instagram.SocialNav_footer_block-link {
+  background-image: url("/theme/comexposium_desktop/img/picto-instagram.png");
+}
+.SocialNav-link.twitter, .twitter.SocialNav_header_block-link, .twitter.SocialNav_footer_block-link {
+  background-image: url("/theme/comexposium_desktop/img/picto-twitter.png");
+}
+.SocialNav-link.linkedin, .linkedin.SocialNav_header_block-link, .linkedin.SocialNav_footer_block-link {
+  background-image: url("/theme/comexposium_desktop/img/picto-linkedin.png");
+}
+.SocialNav-link.youtube, .youtube.SocialNav_header_block-link, .youtube.SocialNav_footer_block-link {
+  background-image: url("/theme/comexposium_desktop/img/picto-youtube.png");
+}
+.SocialNav-link.pinterest, .pinterest.SocialNav_header_block-link, .pinterest.SocialNav_footer_block-link {
+  background-image: url("/theme/comexposium_desktop/img/picto-pinterest.png");
+}
+
+/*--------------------*/
+.SocialNav_header_block {
+  float: right;
+  border-left: 1px solid #e5e5e5;
+}
+
+/*-------------------*/
+.SocialNav_footer_block {
+  background-color: transparent;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 18px;
+}
+
+.SocialNav_footer_block-link {
+  width: 33%;
+}

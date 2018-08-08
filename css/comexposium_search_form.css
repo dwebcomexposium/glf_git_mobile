@@ -1,0 +1,78 @@
+.site-banner .global-search-form {
+  display: block;
+  position: static;
+  right: auto;
+  bottom: auto;
+  /*position: absolute;
+  right: 40px;
+  top: 0;
+  bottom:auto;*/
+  height: 64px;
+}
+.site-banner .global-search-form form {
+  display: block;
+}
+.site-banner .global-search-form .gsf-fields {
+  display: none;
+  padding: 0 !important;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 4px solid #6dcce0;
+  border-width: 4px 0;
+  height: 60px;
+  z-index: 1;
+}
+.site-banner .global-search-form .gsf-input-line {
+  display: block;
+  height: 60px;
+}
+.site-banner .global-search-form .gsf-label {
+  display: none;
+}
+.site-banner .global-search-form .gsf-trigger-text {
+  display: none;
+}
+.site-banner .global-search-form.is-visible .gsf-fields {
+  display: block !important;
+}
+.site-banner .global-search-form.is-visible button.gsf-trigger {
+  background: #6dcce0 url("/theme/comexposium_mobile/img/picto-recherche-open.png") center center no-repeat;
+}
+.site-banner .global-search-form.is-visible button.gsf-trigger:hover, .site-banner .global-search-form.is-visible button.gsf-trigger:focus {
+  background: #6dcce0 url("/theme/comexposium_mobile/img/picto-recherche-open.png") center center no-repeat;
+}
+.site-banner .global-search-form button[type="submit"] {
+  display: none !important;
+}
+.site-banner .global-search-form input[type="search"] {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  outline: none;
+  font-size: 16px;
+}
+.site-banner .global-search-form input[type="search"]:focus {
+  font-size: 16px;
+}
+.site-banner button.gsf-trigger {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  margin: 0;
+  width: 39px;
+  height: 64px;
+  border: 1px solid #cccccc;
+  border-width: 0 0 0 1px;
+  background: transparent url("/theme/comexposium_mobile/img/picto-recherche-close.png") center center no-repeat;
+  outline: none;
+}
+.site-banner button.gsf-trigger:hover, .site-banner button.gsf-trigger:focus {
+  background: transparent url("/theme/comexposium_mobile/img/picto-recherche-close.png") center center no-repeat;
+}
+.site-banner .gsf-trigger .icon {
+  display: none !important;
+}

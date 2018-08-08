@@ -1,0 +1,346 @@
+/*
+
+		== Mobile / Catalogue
+		== 3 components: My selection and History / Vus récemment (sidebar) and Recently seen (bottom of content). Not about the page Mobile Catalogue / My selection list
+		.myselection --> .mysel-###
+		.history --> .hist-###
+		(not on mobile) .recently
+
+*/
+/*
+ * ==My selection (in sidebar: foldable, redish background, lists of EPM)
+ * @TOPROD Constraint: .myselection and .history are in a container .mysel-hist-bar that has a light grey background.
+ * @TOPROD One component can be removed and remaining one will be full width. If both are removed, grey bg will disappear
+ */
+.mysel-hist-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: -0.65em -0.65em 0 -0.65em;
+  padding: 0.8rem;
+  background-color: #e3e9ea;
+}
+.myselection,
+.history {
+  margin-top: 0 !important;
+  padding: 0 0.6rem 1rem 0.5rem;
+  color: #ffffff;
+}
+.page-myselection .history {
+  padding-right: 1.2rem;
+}
+.myselection {
+  background-color: #910f4f;
+}
+.history {
+  background-color: #0c8192;
+}
+.myselection:not(.is-open) > .mysel-container,
+.history:not(.is-open) > .mysel-container,
+.myselection:not(.is-open) > .hist-container,
+.history:not(.is-open) > .hist-container {
+  display: none;
+}
+.mysel-title,
+.hist-title {
+  position: relative;
+  margin-bottom: 0;
+  padding: 0.8rem 0.5rem 0 4.1rem;
+  border-bottom: 0;
+  text-align: right;
+  font-size: 1.3rem;
+  color: inherit;
+}
+.mysel-title .icon-star-full,
+.hist-title .icon-clock {
+  position: absolute;
+  top: 0.7rem;
+  left: 0.5rem;
+  font-size: 2.1rem;
+}
+.mysel-title .mysel-close-btn,
+.hist-title .hist-close-btn {
+  margin-left: 0.3rem;
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-transition: -webkit-transform .3s ease;
+          transition: transform .3s ease;
+}
+.myselection .qty-round,
+.history .qty-round {
+  box-sizing: content-box;
+  position: absolute;
+  top: 0.7rem;
+  left: 1.3rem;
+  border: 1px solid;
+  background-color: #ffffff;
+}
+.myselection .qty-round {
+  color: #910f4f;
+}
+.history .qty-round {
+  color: #0c8192;
+}
+.mysel-container,
+.hist-container {
+  border: none;
+  padding: 0 1.5rem 0 1.3rem;
+  background-color: #910f4f;
+}
+.hist-container {
+  background-color: #0c8192;
+}
+.mysel-type,
+.hist-type {
+  position: relative;
+  margin-top: 0;
+  padding: 1.2rem 0 0 2.2rem;
+}
+.mysel-type .qty-round-small,
+.hist-type .qty-round-small {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+}
+.hist-type {
+  padding-left: 0;
+}
+.mysel-type-title,
+.mysel-item-link,
+.mysel-item-remove,
+.hist-type-title,
+.hist-item-link,
+.hist-item-remove {
+  text-decoration: none;
+  color: inherit;
+}
+.mysel-type-title {
+  text-decoration: underline;
+}
+.mysel-type-title:focus,
+.mysel-item-link:focus,
+.hist-type-title:focus,
+.hist-item-link:focus,
+.mysel-type-title:hover,
+.mysel-item-link:hover,
+.hist-type-title:hover,
+.hist-item-link:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+.mysel-type-title,
+.hist-type-title {
+  font-weight: bold;
+}
+.mysel-item,
+.hist-item {
+  display: block;
+  position: relative;
+  padding: 0.9rem 3rem 1rem 0;
+  width: 100%;
+}
+.mysel-item:not(:last-child),
+.hist-item:not(:last-child),
+.mysel-item:first-child,
+.hist-item:first-child {
+  border-bottom: 1px solid #ffffff;
+}
+.myselection .mysel-item {
+  display: none;
+}
+.myselection .mysel-item:first-child,
+.myselection .mysel-item:first-child + .mysel-item {
+  display: block;
+}
+.myselection .mysel-item:first-child + .mysel-item {
+  border: none;
+}
+.mysel-item-link,
+.hist-item-link {
+  width: 100%;
+}
+.mysel-item-txt,
+.hist-item-txt {
+  padding-right: 3em;
+  font-size: 1.4rem;
+}
+.mysel-item-remove,
+.hist-item-remove {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.8rem;
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+.mysel-item-remove:hover,
+.hist-item-remove:hover {
+  color: #51082c;
+}
+.mysel-footer,
+.hist-footer {
+  padding-top: 2rem;
+  text-align: center;
+}
+.mysel-footer .btn-primary,
+.hist-footer .btn-primary,
+.mysel-footer .btn-invert,
+.hist-footer .btn-invert {
+  display: inline-block;
+  width: auto;
+  border-bottom-color: #51082c;
+  margin: 0 auto 1rem;
+  padding: 0.4em 1em;
+  font-size: 1.4rem;
+  text-transform: none;
+  background-color: #51082c;
+}
+.mysel-footer .btn-primary:hover,
+.hist-footer .btn-primary:hover,
+.mysel-footer .btn-invert:hover,
+.hist-footer .btn-invert:hover {
+  background: #ffffff;
+  color: #51082c;
+  border-bottom-color: #ffffff;
+}
+.mysel-footer .btn-primary .icon,
+.hist-footer .btn-primary .icon,
+.mysel-footer .btn-invert .icon,
+.hist-footer .btn-invert .icon {
+  margin: 0 0 0 0.5rem;
+  font-size: 1.3rem;
+  vertical-align: -0.2rem;
+}
+.hist-footer {
+  padding-top: 1rem;
+}
+.hist-footer .btn-invert {
+  border-bottom-color: #f6f9f9;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background: #f6f9f9;
+}
+.hist-footer .btn-invert:hover {
+  border-bottom-color: #00525e;
+  background: #00525e;
+  color: #ffffff;
+}
+.hist-footer .btn-invert:hover .icon {
+  color: #ffffff;
+}
+.hist-footer .btn-invert .icon {
+  vertical-align: -0.2rem;
+  font-size: 1.1rem;
+  color: #909b9d;
+  -webkit-transition: color 0.2s ease-in-out;
+          transition: color 0.2s ease-in-out;
+}
+.page-details .myselection,
+.page-details .history,
+.page-myselection .history {
+  float: right;
+  width: 3.2rem;
+  background-color: transparent;
+}
+.page-details .mysel-close-btn {
+  color: #910f4f;
+}
+.page-details .hist-close-btn,
+.page-myselection .hist-close-btn {
+  color: #0c8192;
+}
+.page-details .mysel-title,
+.page-details .hist-title,
+.page-myselection .hist-title {
+  padding: 0;
+}
+.page-details .mysel-title .icon-star-full,
+.page-details .hist-title .icon-clock {
+  top: -0.3rem;
+  left: auto;
+  right: 0.3rem;
+  font-size: 2.7rem;
+}
+.page-details .hist-title .icon-clock {
+  top: 0.1rem;
+  font-size: 2.5rem;
+}
+.page-details .mysel-title .qty-round,
+.page-details .hist-title .qty-round,
+.page-myselection .hist-title .qty-round {
+  top: 0.2rem;
+  left: auto;
+  right: 0;
+}
+.page-details .mysel-title-txt,
+.page-details .hist-title-txt,
+.page-myselection .hist-title-txt {
+  position: absolute !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+}
+.page-myselection .hist-title .icon-clock {
+  top: 0.1rem;
+  left: auto;
+  right: 0.3rem;
+  font-size: 2.5rem;
+}
+.mysel-modal-title,
+.hist-modal-title {
+  position: relative;
+  border-bottom: 4px solid #ffffff;
+  padding: 0.9rem 0 1.1rem 3.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.mysel-modal-title .m-btn-to-close,
+.hist-modal-title .m-btn-to-close {
+  position: static;
+  float: right;
+  width: auto;
+  height: auto;
+  margin-right: 0.3rem;
+  padding: 0;
+  color: #ffffff;
+  background-color: transparent;
+}
+.mysel-modal-title .m-btn-to-close:focus,
+.hist-modal-title .m-btn-to-close:focus,
+.mysel-modal-title .m-btn-to-close:hover,
+.hist-modal-title .m-btn-to-close:hover {
+  color: #EEE;
+  background-color: transparent;
+  outline: none;
+}
+.mysel-modal-title .icon-star-full,
+.hist-modal-title .icon-star-full,
+.mysel-modal-title .icon-clock,
+.hist-modal-title .icon-clock {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  font-size: 2.3rem;
+}
+.mysel-modal-title .qty-round,
+.hist-modal-title .qty-round {
+  box-sizing: content-box;
+  position: absolute;
+  top: 0.7rem;
+  left: 1.3rem;
+  border: 1px solid;
+  font-size: 1rem;
+  background-color: #ffffff;
+}

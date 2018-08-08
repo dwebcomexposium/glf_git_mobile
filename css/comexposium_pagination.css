@@ -1,0 +1,41 @@
+.pagination {
+  border: none;
+}
+.pagination a {
+  line-height: 1em;
+  text-decoration: none;
+}
+.pagination a:focus, .pagination a:hover {
+  color: #021736;
+}
+
+.pagin-item {
+  font-family: "Avenir Book";
+  font-size: 18px;
+}
+.pagin-item a::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 4px;
+  margin-top: 8px;
+  margin-left: -4px;
+  transition: .3s;
+}
+.pagin-item.is-active a {
+  position: relative;
+  font-family: "Montserrat Bold";
+  background: none;
+  color: #021736;
+}
+.pagin-item.is-active a::after {
+  width: 35px;
+  background: #021736;
+}
+.pagin-item.pagin-prev a:focus, .pagin-item.pagin-prev a:hover, .pagin-item.pagin-next a:focus, .pagin-item.pagin-next a:hover {
+  background: none;
+}
+.pagin-item.pagin-prev .icon, .pagin-item.pagin-next .icon {
+  display: none;
+}

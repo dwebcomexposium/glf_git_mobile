@@ -1,0 +1,85 @@
+.list-articles .main-title-with-link .block-title, .list-articles .main-title-with-link .la-main-title {
+  color: #9d1368;
+  font-family: "Montserrat Light";
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.list-articles .la-column {
+  padding-top: 20px;
+}
+.list-articles .la-item {
+  display: block;
+}
+.list-articles .la-item:last-child {
+  border-bottom: 0;
+}
+.list-articles .la-item-header .la-item-title {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.list-articles .la-item .la-item-title {
+  text-transform: none;
+  line-height: 34px;
+  margin-bottom: 8px;
+}
+.list-articles .la-item .la-item-title a {
+  font-family: 'Montserrat Regular';
+  color: black;
+  font-size: 26px;
+  text-transform: none;
+}
+.list-articles .la-item .la-item-img {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.list-articles .la-item .la-item-content {
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+.list-articles .la-item .la-item-tag {
+  position: relative;
+  font-size: 14px;
+  color: white;
+  font-family: 'Montserrat ExtraBold';
+  letter-spacing: 1px;
+  top: -25px;
+}
+.list-articles .la-item-img + .la-item-title-wrap .la-item-tag,
+.list-articles .la-item-header + .la-item-content .la-item-tag {
+  top: -15px;
+}
+.list-articles .la-item-header .la-item-tag {
+  left: 20px;
+}
+.list-articles .la-item-content .la-item-title:first-child {
+  margin-top: 20px;
+}
+.list-articles .la-item-content {
+  overflow: visible;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  display: block;
+  width: auto !important;
+}
+.list-articles .la-item .la-item-desc {
+  font-family: "Avenir Book";
+  font-size: 14px;
+  line-height: 18px;
+}
+.list-articles .la-item-btn .link-read-more {
+  display: none;
+}
+
+.body-mobile.front .la-list .la-item .la-item-tag {
+  margin-bottom: 0;
+  top: -15px;
+}
