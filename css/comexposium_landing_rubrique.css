@@ -135,7 +135,7 @@
 .rcb-video a.video:before {
   display: block;
   content: '';
-  background: url(/theme/comexposium_mobile/img/picto-play-big.png) 0 0 no-repeat;
+  background: url(/theme/glf_git_mobile/img/picto-play-big.png) 0 0 no-repeat;
   width: 60px;
   height: 160px;
   position: absolute;
@@ -159,7 +159,7 @@
   z-index: 50;
   width: 49px;
   height: 98px;
-  background: url(/theme/comexposium_desktop/img/sprite-slider-rubrique.png) 0 0 no-repeat;
+  background: url(/theme/glf_git_desktop/img/sprite-slider-rubrique.png) 0 0 no-repeat;
   margin: 0;
   padding: 0;
   border: none;

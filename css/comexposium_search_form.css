@@ -39,10 +39,10 @@
   display: block !important;
 }
 .site-banner .global-search-form.is-visible button.gsf-trigger {
-  background: #6dcce0 url("/theme/comexposium_mobile/img/picto-recherche-open.png") center center no-repeat;
+  background: #6dcce0 url("/theme/glf_git_mobile/img/picto-recherche-open.png") center center no-repeat;
 }
 .site-banner .global-search-form.is-visible button.gsf-trigger:hover, .site-banner .global-search-form.is-visible button.gsf-trigger:focus {
-  background: #6dcce0 url("/theme/comexposium_mobile/img/picto-recherche-open.png") center center no-repeat;
+  background: #6dcce0 url("/theme/glf_git_mobile/img/picto-recherche-open.png") center center no-repeat;
 }
 .site-banner .global-search-form button[type="submit"] {
   display: none !important;
@@ -67,11 +67,11 @@
   height: 64px;
   border: 1px solid #cccccc;
   border-width: 0 0 0 1px;
-  background: transparent url("/theme/comexposium_mobile/img/picto-recherche-close.png") center center no-repeat;
+  background: transparent url("/theme/glf_git_mobile/img/picto-recherche-close.png") center center no-repeat;
   outline: none;
 }
 .site-banner button.gsf-trigger:hover, .site-banner button.gsf-trigger:focus {
-  background: transparent url("/theme/comexposium_mobile/img/picto-recherche-close.png") center center no-repeat;
+  background: transparent url("/theme/glf_git_mobile/img/picto-recherche-close.png") center center no-repeat;
 }
 .site-banner .gsf-trigger .icon {
   display: none !important;

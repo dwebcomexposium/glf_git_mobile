@@ -147,11 +147,11 @@
 }
 .exhibitions-highlights .slick-prev {
   left: 60px;
-  background-image: url("/theme/comexposium_desktop/img/slider-arrow-left.png");
+  background-image: url("/theme/glf_git_desktop/img/slider-arrow-left.png");
 }
 .exhibitions-highlights .slick-next {
   right: 60px;
-  background-image: url("/theme/comexposium_desktop/img/slider-arrow-right.png");
+  background-image: url("/theme/glf_git_desktop/img/slider-arrow-right.png");
 }
 
 .page-rubric .exhibitions-highlights {

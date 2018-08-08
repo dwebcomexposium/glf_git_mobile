@@ -16,7 +16,7 @@
   display: block;
   width: 21px;
   height: 22px;
-  background: url(/theme/comexposium_mobile/img/picto-menu-close.png) 0 0 no-repeat;
+  background: url(/theme/glf_git_mobile/img/picto-menu-close.png) 0 0 no-repeat;
   margin: 0 auto;
 }
 .sb-menu-trigger .icon.icon-menu:before, .sb-menu-trigger .icon.icon-menu:after {
@@ -26,7 +26,7 @@
   border: none;
 }
 .sb-menu-trigger.is-open .icon.icon-menu {
-  background: url(/theme/comexposium_mobile/img/picto-menu-open.png) center center no-repeat;
+  background: url(/theme/glf_git_mobile/img/picto-menu-open.png) center center no-repeat;
 }
 
 .main-navigation {

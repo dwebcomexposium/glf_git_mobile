@@ -268,7 +268,7 @@ body.page-events #zone2 .catal-nav-ex {
     padding-left: 32px;
     font-size: 1.1rem;
     padding-top: 5px;
-    background-image: url("/theme/comexposium_desktop/img/picto-loupe-calendrier.png");
+    background-image: url("/theme/glf_git_desktop/img/picto-loupe-calendrier.png");
     background-position: 6px 50% !important;
     background-repeat: no-repeat !important;
     background-size: 14px auto; }
@@ -347,7 +347,7 @@ body.page-events #zone2 .salon-details .evd-wrapper {
       margin: 0 auto;
       margin-bottom: 30px; }
     body.page-events #zone2 .salon-details .evd-wrapper .evd-desc .evd-desc.evd-group a {
-      background-image: url("/theme/comexposium_desktop/img/picto-link.png");
+      background-image: url("/theme/glf_git_desktop/img/picto-link.png");
       background-position: 6px 50% !important;
       background-repeat: no-repeat !important;
       background-size: 15px auto;
@@ -451,7 +451,7 @@ body.page-events #zone2 .salon-details .catal-ed-main {
     body.page-events #zone2 .salon-details .catal-ed-main .catal-ed-main-infos .catal-ed-main-url {
       margin-bottom: 2em;
       padding-left: 28px;
-      background-image: url("/theme/comexposium_desktop/img/picto-link.png");
+      background-image: url("/theme/glf_git_desktop/img/picto-link.png");
       background-position: 6px 50% !important;
       background-repeat: no-repeat !important;
       background-size: 15px auto; }

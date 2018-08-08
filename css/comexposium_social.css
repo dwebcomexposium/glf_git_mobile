@@ -37,13 +37,13 @@
   display: none;
 }
 .social-sharing .sr-item [class^="btn"] .icon.icon-email, .social-sharing .sr-item .btn .icon.icon-email {
-  background: url(/theme/comexposium_mobile/img/social-share-icon-email.png) 0 0 no-repeat;
+  background: url(/theme/glf_git_mobile/img/social-share-icon-email.png) 0 0 no-repeat;
 }
 .social-sharing .sr-item [class^="btn"] .icon.icon-facebook, .social-sharing .sr-item .btn .icon.icon-facebook {
-  background: url(/theme/comexposium_mobile/img/social-share-icon-facebook.png) 0 0 no-repeat;
+  background: url(/theme/glf_git_mobile/img/social-share-icon-facebook.png) 0 0 no-repeat;
 }
 .social-sharing .sr-item [class^="btn"] .icon.icon-twitter, .social-sharing .sr-item .btn .icon.icon-twitter {
-  background: url(/theme/comexposium_mobile/img/social-share-icon-twitter.png) 0 0 no-repeat;
+  background: url(/theme/glf_git_mobile/img/social-share-icon-twitter.png) 0 0 no-repeat;
 }
 .social-sharing .sr-item + .sr-item {
   margin-left: 0;
